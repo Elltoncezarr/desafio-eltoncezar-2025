@@ -75,13 +75,13 @@ function perguntarAnimais() {
     animaisInput.forEach(animal => {
       animais.push(animal.charAt(0).toUpperCase() + animal.slice(1).toLowerCase());
     });
-    
+
     const resultado = abrigo.verificarAdocao(listaBrinquedos, animais);
     console.log('\nResultado:', resultado);
     rl.close();
   });
 }
- 
+
 perguntarBrinquedos();
-export {AbrigoAnimais};
+
  export {AbrigoAnimais as AbrigoAnimais};
